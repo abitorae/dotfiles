@@ -1,0 +1,16 @@
+bar {
+    status_command i3status-rs
+    position top
+
+    colors {
+        background         {{base}}
+        statusline         {{text}}
+        focused_statusline {{text}}
+        focused_separator  {{overlay}}
+
+        focused_workspace  {{overlay}} {{surface}} {{iris}}
+        active_workspace   {{overlay}} {{surface}} {{foam}}
+        inactive_workspace {{base}} {{base}} {{subtle}}
+        urgent_workspace   {{overlay}} {{surface}} {{love}}
+    }
+}

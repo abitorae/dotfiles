@@ -1,0 +1,140 @@
+# ~/.local/share/chezmoi/.chezmoiexternal.toml
+
+# Btop
+[".config/btop/themes/rose-pine.theme"]
+    type = "file"
+    url = "https://raw.githubusercontent.com/rose-pine/btop/main/rose-pine.theme"
+    refreshPeriod = "168h"
+
+[".config/btop/themes/rose-pine-dawn.theme"]
+    type = "file"
+    url = "https://raw.githubusercontent.com/rose-pine/btop/main/rose-pine-dawn.theme"
+    refreshPeriod = "168h"
+
+# Foot
+[".config/foot/themes/rose-pine"]
+    type = "file"
+    url = "https://raw.githubusercontent.com/rose-pine/foot/refs/heads/main/rose-pine"
+    refreshPeriod = "168h"
+
+[".config/foot/themes/rose-pine-dawn"]
+    type = "file"
+    url = "https://raw.githubusercontent.com/rose-pine/foot/refs/heads/main/rose-pine-dawn"
+    refreshPeriod = "168h"
+
+# Sway
+[".config/sway/themes/rose-pine.theme"] 
+    type = "file"
+    url = "https://raw.githubusercontent.com/rose-pine/i3/refs/heads/main/themes/rose-pine.theme"
+    refreshPeriod = "168h"
+
+[".config/sway/themes/rose-pine-dawn.theme"] 
+    type = "file"
+    url = "https://raw.githubusercontent.com/rose-pine/i3/refs/heads/main/themes/rose-pine-dawn.theme"
+    refreshPeriod = "168h"
+
+# Fcitx5
+[".local/share/fcitx5/themes/rose-pine/arrow.png"] 
+    type = "file"
+    url = "https://raw.githubusercontent.com/rose-pine/fcitx5/refs/heads/main/rose-pine/arrow.png"
+    refreshPeriod = "168h"
+
+[".local/share/fcitx5/themes/rose-pine/radio.png"] 
+    type = "file"
+    url = "https://raw.githubusercontent.com/rose-pine/fcitx5/refs/heads/main/rose-pine/radio.png"
+    refreshPeriod = "168h"
+
+[".local/share/fcitx5/themes/rose-pine/theme.conf"] 
+    type = "file"
+    url = "https://raw.githubusercontent.com/rose-pine/fcitx5/refs/heads/main/rose-pine/theme.conf"
+    refreshPeriod = "168h"
+
+[".local/share/fcitx5/themes/rose-pine-dawn/arrow.png"] 
+    type = "file"
+    url = "https://raw.githubusercontent.com/rose-pine/fcitx5/refs/heads/main/rose-pine-dawn/arrow.png"
+    refreshPeriod = "168h"
+
+[".local/share/fcitx5/themes/rose-pine-dawn/radio.png"] 
+    type = "file"
+    url = "https://raw.githubusercontent.com/rose-pine/fcitx5/refs/heads/main/rose-pine-dawn/radio.png"
+    refreshPeriod = "168h"
+
+[".local/share/fcitx5/themes/rose-pine-dawn/theme.conf"] 
+    type = "file"
+    url = "https://raw.githubusercontent.com/rose-pine/fcitx5/refs/heads/main/rose-pine-dawn/theme.conf"
+    refreshPeriod = "168h"
+
+# Wallpaper
+# ["Projects/wallpapers"]
+#     type = "git-repo"
+#     url = "https://github.com/rose-pine/wallpapers.git"
+#     refreshPeriod = "168h"
+
+# Swaylock
+[".config/swaylock/themes/rose-pine"]
+    type = "file"
+    url = "https://raw.githubusercontent.com/d2718nis/rose-pine-swaylock/refs/heads/main/rose-pine"
+    refreshPeriod = "168h"
+
+[".config/swaylock/themes/rose-pine-dawn"]
+    type = "file"
+    url = "https://raw.githubusercontent.com/d2718nis/rose-pine-swaylock/refs/heads/main/rose-pine-dawn"
+    refreshPeriod = "168h"
+
+# Kvantum
+[".config/Kvantum/rose-pine-rose"]
+    type = "archive"
+    url = "https://raw.githubusercontent.com/rose-pine/kvantum/master/dist/rose-pine-rose.tar.gz"
+    exact = true
+    stripComponents = 1
+
+[".config/Kvantum/rose-pine-dawn-rose"]
+    type = "archive"
+    url = "https://raw.githubusercontent.com/rose-pine/kvantum/master/dist/rose-pine-dawn-rose.tar.gz"
+    exact = true
+    stripComponents = 1
+
+# Mako
+[".config/mako/themes/rose-pine.theme"]
+    type = "file"
+    url = "https://raw.githubusercontent.com/rose-pine/mako/refs/heads/main/theme/rose-pine.theme"
+    refreshPeriod = "168h"
+
+[".config/mako/themes/rose-pine-dawn.theme"]
+    type = "file"
+    url = "https://raw.githubusercontent.com/rose-pine/mako/refs/heads/main/theme/rose-pine-dawn.theme"
+    refreshPeriod = "168h"
+    
+# Fuzzel
+[".config/fuzzel/themes/rose-pine.ini"]
+    type = "file"
+    url = "https://raw.githubusercontent.com/bomgar/rose-pine-fuzzel/refs/heads/main/themes/rose-pine.ini"
+    refreshPeriod = "168h"
+
+[".config/fuzzel/themes/rose-pine-dawn.ini"]
+    type = "file"
+    url = "https://raw.githubusercontent.com/bomgar/rose-pine-fuzzel/refs/heads/main/themes/rose-pine-dawn.ini"
+    refreshPeriod = "168h"
+
+# Yazi icon
+[".config/yazi/themes/rose-pine.toml"]
+    type = "file"
+    url = "https://raw.githubusercontent.com/rose-pine/yazi/refs/heads/main/themes/rose-pine.toml"
+    refreshPeriod = "168h"
+
+[".config/yazi/themes/rose-pine-dawn.toml"]
+    type = "file"
+    url = "https://raw.githubusercontent.com/rose-pine/yazi/refs/heads/main/themes/rose-pine-dawn.toml"
+    refreshPeriod = "168h"
+
+# Helix
+[".config/helix/themes/rose_pine.toml"]
+    type = "file"
+    url = "https://raw.githubusercontent.com/rose-pine/helix/refs/heads/main/rose_pine.toml"
+    refreshPeriod = "168h"
+
+[".config/helix/themes/rose_pine_dawn.toml"]
+    type = "file"
+    url = "https://raw.githubusercontent.com/rose-pine/helix/refs/heads/main/rose_pine_dawn.toml"
+    refreshPeriod = "168h"
+

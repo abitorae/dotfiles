@@ -1,0 +1,4 @@
+timeout 600 'if ! playerctl status | grep -q Playing; then swaylock -f -c 000000; fi'
+timeout 900 'if ! playerctl status | grep -q Playing; then swaymsg "output * power off"; fi' resume 'swaymsg "output * power on"'
+timeout 1800 'if ! playerctl status | grep -q Playing; then systemctl suspend; fi'
+before-sleep 'swaylock -f -c 000000'
