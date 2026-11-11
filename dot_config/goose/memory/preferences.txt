@@ -1,0 +1,10 @@
+# preferences tool-selection weighted-criteria
+Tool selection preferences (weighted, 0~1):
+1. Fully covers requirements: 0.5
+2. Minimalist on top of #1: 0.5
+3. Lightweight: 0.8
+4. High performance: 0.8
+5. High efficiency: 0.8
+6. Mature: 0.5
+7. Stable: 0.5
+When screening tools, score by weighted sum; prioritize lightweight, high performance, high efficiency.

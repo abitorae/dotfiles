@@ -3,7 +3,12 @@
 
 set -eu
 
+trap 'sleep 1; hyprctl dispatch "hl.dsp.dpms({ action = '\'enable\'' })"' EXIT
+
 MODE="$1"
+
+[ -f /tmp/darkman_skip_theme ] && exit 0
+echo "HYPRLAND_INSTANCE_SIGNATURE=$HYPRLAND_INSTANCE_SIGNATURE" >> /tmp/darkman_env.log
 
 case "$MODE" in
   dark)

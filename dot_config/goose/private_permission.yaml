@@ -1,0 +1,17 @@
+user:
+  always_allow:
+  - analyze
+  - tree
+  - read_image
+  - load_skill
+  - load
+  - delegate
+  ask_before:
+  - write
+  - edit
+  - shell
+  - memory__remove_memory_category
+  - memory__remove_specific_memory
+  - memory__retrieve_memories
+  - memory__remember_memory
+  never_allow: []

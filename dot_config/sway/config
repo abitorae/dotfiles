@@ -27,6 +27,10 @@ output eDP-1 {
     bg /home/meazenlvy/.config/wallpapers/sway.png fill
 }
 
+### sway-contrib
+exec /usr/bin/python3 /usr/share/sway-contrib/inactive-windows-transparency.py -o 0.7
+# exec /usr/share/sway-contrib/float-window-managerd.sh
+
 ### Autostart
 exec brightnessctl set 35%
 
@@ -209,8 +213,8 @@ bindsym $mod+r mode "resize"
     bindsym --locked XF86MonBrightnessUp exec brightnessctl set 5%+
 
     # Special key to take a screenshot with grim
-    bindsym Print exec grim | wl-copy
-    bindsym Print+Shift exec grim -g - | wl-copy
+    bindsym Print exec grim - | wl-copy --type image/png
+    bindsym Print+Shift exec grim -g "$(slurp)" - | wl-copy --type image/png
 
     # See the clipboard history
     bindsym $mod+Shift+v exec cliphist list | fuzzel --dmenu | cliphist decode | wl-copy
@@ -232,8 +236,8 @@ for_window [shell="xwayland" window_type="dialog"] floating enable
 for_window [app_id="footclient"] move container to workspace number 1
 for_window [app_id="firefox"] move container to workspace number 2
 for_window [app_id="org.keepassxc.KeePassXC"] move container to workspace number 3, layout tabbed
-for_window [app_id="wechat"] move container to workspace number 4, layout tabbed
-for_window [app_id="QQ"] move container to workspace number 4, layout tabbed
+for_window [app_id="wechat"] move scratchpad, floating enable, size 400 300
+for_window [app_id="QQ"] move scratchpad, floating enable, size 400 300
 for_window [app_id="spotify"] move container to workspace number 5
 
 default_border pixel 3

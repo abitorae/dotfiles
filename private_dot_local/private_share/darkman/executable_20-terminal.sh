@@ -5,6 +5,8 @@ set -eu
 
 MODE="$1"
 
+[ -f /tmp/darkman_skip_theme ] && exit 0
+
 case "$MODE" in
   dark)
     BTOP_THEME="rose-pine.theme"
